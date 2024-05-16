@@ -5,7 +5,6 @@ import * as ImagePicker from 'expo-image-picker';
 export default function Home({ navigation }) {
 
   let url = "https://6801-2800-4b0-5301-47c8-a829-a1ae-94bd-6276.ngrok-free.app"
-  
   const [image, setImage] = useState(null);
 
   const pickImage = async () => {
